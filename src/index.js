@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import VD2 from './VD2';
+import VD3 from './VD3';
+import Tach_file from './Tach_file';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <VD3 />
   </React.StrictMode>
 );
 
